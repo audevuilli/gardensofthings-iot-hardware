@@ -10,12 +10,20 @@ LoRaWan SHT31 sensor node to monitor air temperature and humidity. Use MKR1310 A
 <img src="LoRa_MKR1310_SHT31/Images/lora-sht31-img2.jpg" width="48%"> <img src="LoRa_MKR1310_SHT31/Images/lora-sht31-img3.jpg" width="48%">
 
 ### Software
-- [MKRWAN1310_SHT31_TTN.ino](https://github.com/audevuilli/gardensofthings-iot-hardware/blob/main/LoRa_MKR1310_SHT31/MKR1310_SHT31_Arduino_Code/MKR1310_SHT31.ino) - (Arduino code to send data to The Things Stack)
-- [Telegraf]
+- [MKRWAN1310_SHT31_TTN.ino](https://github.com/audevuilli/gardensofthings-iot-hardware/blob/main/LoRa_MKR1310_SHT31/MKR1310_SHT31_Arduino_Code/MKR1310_SHT31.ino) - Arduino code to send data to The Things Stack
+- [telegraf_ttn.conf](https://github.com/audevuilli/gardensofthings-iot-hardware/blob/main/LoRa_MKR1310_SHT31/telegraf-mkr1310-ttn.conf) - Telegraf configuration file to get data from TTN to InfluxDB 
 
 ### Hardware
 - [Arduino MKR WAN 1310](https://store.arduino.cc/products/arduino-mkr-wan-1310)
 - [SHT31 Outdoor Temperature & Humidity Sensor](https://www.dfrobot.com/product-2160.html)
 - [868/915MHz Dipole Antenna](https://www.mouser.co.uk/ProductDetail/Molex/206764-0200?qs=F5EMLAvA7IB89PXHoSyp7g%3D%3D)
 - [3.7V 850mAh LiPo Battery](https://tinyurl.com/ywfr3y9s)
+
+### Enclosure
+- [ABB IP65 Junction Box](https://uk.rs-online.com/web/p/junction-boxes/0454955)
+
+### Setup
+- [Arduino IDE](https://www.arduino.cc/en/software)
+- [TTN Console](https://eu1.cloud.thethings.network/console/)
+- [InfluxDB](https://portal.influxdata.com/downloads/)
 
